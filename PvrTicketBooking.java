@@ -37,7 +37,7 @@ public class PvrTicketBooking {
     
 	
     //CLICK BOOK BUTTON
-	driver.findElement(By.xpath("//span[text()='Book'])[4]")).click();
+	driver.findElement(By.xpath("(//span[text()='Book'])[4]")).click();
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("//button[text()='Accept']")).click();
 	driver.findElement(By.xpath("//span[@id='BU.BUDGET|N:12']")).click();
